@@ -1,5 +1,5 @@
 body {
-    background: url(../image/fondo-liso-gradiente_23-2148970443.avif);
+    background: url(../image/3607424.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -11,12 +11,26 @@ body {
     padding: 20px;
     border: solid 1px #000;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(111, 156, 241, 0.8);
     margin-bottom: 5px;
     transition: 0.5s;
 }
 
-.main-wrapper {
+.header h1 {
+    background: linear-gradient(to right, #ffd700, #fff176);
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px 0px #000;
+}
+
+.header {
+    background: linear-gradient(to right, #ffd700, #76c1ff);
+    
+}
+
+.principal {
     display: flex;
     gap: 10px;
     margin-bottom: 5px;
@@ -24,38 +38,75 @@ body {
 
 .section {
     flex: 3;
-    background-color: #a6d0ed;
+    background: url("../image/fondo-liso-gradiente_23-2148970443.avif");
+    background-size: cover;
 }
 
 .aside {
     flex: 1;
-    background-color: #eaf368;
+    background: linear-gradient(to right, #905afe, #b8fb45);
+}
+
+.article {
+    background: url("../image/17973903.jpg"); 
+    background-size: cover;
+    background-position: center; 
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8); 
+
+}
+.footer {
+    background: url("../image/photo-1671347020855-8f35d210ee9a.avif"); 
+    background-size: cover;
+    background-position: center;
+    color: rgb(197, 244, 66); 
+    font-weight: bold; 
 }
 
 .header:hover {
+    box-shadow: 10px 10px 20px black;
+    cursor: pointer;
+    transform: scale(1.05);
+    
+}
+
+.nav {
+    color: yellow;
+    background: linear-gradient(to right, #50f659, #fba945);
     box-shadow: 10px 10px 20px black;
     cursor: pointer;
 }
 
 .nav:hover {
     color: yellow;
+    background: linear-gradient(to right, #50f659, #fba945);
     background-color: #d9ec83;
     font-size: 25px;
+    box-shadow: 10px 10px 20px black;
+    cursor: pointer;
 }
 
 .section:hover {
     transform: scale(1.05);
+    box-shadow: 10px 10px 20px black;
+    cursor: pointer;
 }
 
 .aside:hover {
     transform: rotate(5deg);
+    box-shadow: 10px 10px 20px black;
+    cursor: pointer;
 }
 
 .article:hover {
     opacity: 0.5;
+    box-shadow: 10px 10px 20px black;
+    cursor: pointer;
 }
 
 .footer:hover {
     background-color: #000;
     color: aqua;
+    box-shadow: 10px 10px 20px black;
+    cursor: pointer;
 }
