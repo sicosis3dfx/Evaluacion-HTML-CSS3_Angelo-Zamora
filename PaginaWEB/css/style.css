@@ -1,0 +1,61 @@
+body {
+    background: url(../image/fondo-liso-gradiente_23-2148970443.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+
+.header, .nav, .section, .aside, .article, .footer {
+    padding: 20px;
+    border: solid 1px #000;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 5px;
+    transition: 0.5s;
+}
+
+.main-wrapper {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.section {
+    flex: 3;
+    background-color: #a6d0ed;
+}
+
+.aside {
+    flex: 1;
+    background-color: #e3f2fd;
+}
+
+.header:hover {
+    box-shadow: 10px 10px 20px black;
+    cursor: pointer;
+}
+
+.nav:hover {
+    color: yellow;
+    background-color: #333;
+    font-size: 25px;
+}
+
+.section:hover {
+    transform: scale(1.05);
+}
+
+.aside:hover {
+    transform: rotate(5deg);
+}
+
+.article:hover {
+    opacity: 0.5;
+}
+
+.footer:hover {
+    background-color: #000;
+    color: aqua;
+}
